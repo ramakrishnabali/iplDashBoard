@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+  background-size: cover;
+}
+
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+  background-size: cover;
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+
+  background-size: cover;
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+  background-size: cover;
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+  background-size: cover;
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+  background-size: cover;
+}
+
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+  background-size: cover;
+}
+
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+  background-size: cover;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  padding: 30px 10px;
+}
+
+.teamBannerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.banner {
+  width: 100%;
+}
+
+.latest {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Bree serif';
+  align-self: flex-start;
+}
+
+.recentMatchContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
